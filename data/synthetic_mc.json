@@ -1,0 +1,5787 @@
+[
+  {
+    "id": "validation_1",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_001.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robotic arm moving?",
+    "choices": {
+      "A": "left",
+      "B": "no robotic arm there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_2",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_001.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the car driving?",
+    "choices": {
+      "A": "left",
+      "B": "no car there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "no car there"
+  },
+  {
+    "id": "validation_3",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_002.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the compost truck rotate?",
+    "choices": {
+      "A": "no compost truck there",
+      "B": "clockwise",
+      "C": "counter-clockwise",
+      "D": "not moving"
+    },
+    "answer": "clockwise"
+  },
+  {
+    "id": "validation_4",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_003.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the drone moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no drone there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_5",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_004.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "no robot there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_6",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_005.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_7",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_006.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which way is the robot scorpion rotating?",
+    "choices": {
+      "A": "no robot scorpion there",
+      "B": "clockwise",
+      "C": "not moving",
+      "D": "counter-clockwise"
+    },
+    "answer": "clockwise"
+  },
+  {
+    "id": "validation_8",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_007.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the spaceship moving?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no spaceship there",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_9",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_008.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the insect moving?",
+    "choices": {
+      "A": "no insect there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_10",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_009.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the snowplow moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no snowplow there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_11",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_010.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the alien moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no alien there",
+      "D": "right"
+    },
+    "answer": "no alien there"
+  },
+  {
+    "id": "validation_12",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_010.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic archaeologist moving towards?",
+    "choices": {
+      "A": "no robotic archaeologist there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_13",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_011.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bus moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no bus there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_14",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_012.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot's right foot moving?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "no robot's foot there",
+      "C": "not moving",
+      "D": "away from the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_15",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_013.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the jellyfish moving?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no jellyfish there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_16",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_014.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the horse moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no horse there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_17",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_015.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the limousine moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no limousine there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_18",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_016.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no robotic arm there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_19",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_017.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the drone moving towards?",
+    "choices": {
+      "A": "no drone there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_20",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_018.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the exploration rover moving?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "not moving",
+      "C": "no exploration rover there",
+      "D": "away from the camera"
+    },
+    "answer": "away from the camera"
+  },
+  {
+    "id": "validation_21",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_019.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no robot there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_22",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_019.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the unicorn moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no unicorn there"
+    },
+    "answer": "no unicorn there"
+  },
+  {
+    "id": "validation_23",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_020.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic dog moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no robotic dog there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_24",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_021.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic harvester moving towards?",
+    "choices": {
+      "A": "no robotic harvester there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_25",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_022.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the harvester moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "right",
+      "D": "no harvester there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_26",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_023.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no robotic arm there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_27",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_024.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bird moving towards?",
+    "choices": {
+      "A": "no bird there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_28",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_025.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic window cleaner moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no robotic window cleaner there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_29",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_026.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the truck moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no truck there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_30",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_027.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the motorcycle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no motorcycle there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_31",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_028.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the griffin moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no griffin there"
+    },
+    "answer": "no griffin there"
+  },
+  {
+    "id": "validation_32",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_028.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the turtle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "right",
+      "D": "no turtle there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_33",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_029.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic window cleaner moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no robotic window cleaner there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_34",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_030.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the Mars rover moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no Mars rover there",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_35",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_031.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the sports car moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no sports car there",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_36",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_032.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bus moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no bus there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_37",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_033.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the taxi moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no taxi there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_38",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_034.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the taxi moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no taxi there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_39",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_035.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic fish moving towards?",
+    "choices": {
+      "A": "no robotic fish there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_40",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_036.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the astronaut moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no astronaut there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_41",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_037.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the kangaroo moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no kangaroo there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_42",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_037.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the troll moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no troll there"
+    },
+    "answer": "no troll there"
+  },
+  {
+    "id": "validation_43",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_038.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no train there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_44",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_039.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the car moving?",
+    "choices": {
+      "A": "no car there",
+      "B": "away from the camera",
+      "C": "not moving",
+      "D": "towards the camera"
+    },
+    "answer": "away from the camera"
+  },
+  {
+    "id": "validation_45",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_040.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic space probe moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robotic space probe there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_46",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_041.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the snow tractor moving?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no snow tractor there",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_47",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_042.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "no train there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_48",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_043.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the hovercar moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no hovercar there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_49",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_044.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the drone moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no drone there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_50",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_045.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the turtle moving?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no turtle there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_51",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_046.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the garbage truck moving towards?",
+    "choices": {
+      "A": "no garbage truck there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_52",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_046.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the phantom moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no phantom there",
+      "D": "right"
+    },
+    "answer": "no phantom there"
+  },
+  {
+    "id": "validation_53",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_047.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the robot kangaroo turn?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robot kangaroo there",
+      "C": "clockwise",
+      "D": "anti-clockwise"
+    },
+    "answer": "anti-clockwise"
+  },
+  {
+    "id": "validation_54",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_048.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic koi fish moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "right",
+      "D": "no robotic koi fish there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_55",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_049.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic deer moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no robotic deer there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_56",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_050.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic dinosaur moving towards?",
+    "choices": {
+      "A": "no robotic dinosaur there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_57",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_051.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bicycle moving towards?",
+    "choices": {
+      "A": "no bicycle there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_58",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_052.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the utility truck moving?",
+    "choices": {
+      "A": "no utility truck there",
+      "B": "not moving",
+      "C": "away from the camera",
+      "D": "towards the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_59",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_053.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bicycle moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no bicycle there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_60",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_054.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the construction vehicle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no construction vehicle there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_61",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_055.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the fairy moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no fairy there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "no fairy there"
+  },
+  {
+    "id": "validation_62",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_055.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the taxi moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no taxi there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_63",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_056.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the hover bike moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no hover bike there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_64",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_057.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the mars rover moving?",
+    "choices": {
+      "A": "no mars rover there",
+      "B": "towards the camera",
+      "C": "not moving",
+      "D": "away from the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_65",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_058.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the battle robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no battle robot there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_66",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_059.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic vacuum cleaner moving towards?",
+    "choices": {
+      "A": "no robotic vacuum cleaner there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_67",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_060.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robot there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_68",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_061.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no robot there",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_69",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_062.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the flying jetski moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "no flying jetski there",
+      "C": "right and backward",
+      "D": "left and forward"
+    },
+    "answer": "left and forward"
+  },
+  {
+    "id": "validation_70",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_063.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the humanoid moving?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no humanoid there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_71",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_064.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which way is the police car rotating?",
+    "choices": {
+      "A": "no police car there",
+      "B": "clockwise",
+      "C": "counter-clockwise",
+      "D": "not rotating"
+    },
+    "answer": "not rotating"
+  },
+  {
+    "id": "validation_72",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_064.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the skateboard move?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no skateboard there"
+    },
+    "answer": "no skateboard there"
+  },
+  {
+    "id": "validation_73",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_065.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robot there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_74",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_066.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the limousine moving towards?",
+    "choices": {
+      "A": "no limousine there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_75",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_067.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the car moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no car there",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_76",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_068.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic insect moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no robotic insect there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_77",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_069.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic window cleaner moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no robotic window cleaner there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_78",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_070.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the balloon moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no balloon there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_79",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_071.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot kangaroo moving?",
+    "choices": {
+      "A": "right then left",
+      "B": "no robot kangaroo there",
+      "C": "left then right",
+      "D": "not moving"
+    },
+    "answer": "left then right"
+  },
+  {
+    "id": "validation_80",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_072.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the mining machine moving towards?",
+    "choices": {
+      "A": "no mining machine there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_81",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_073.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the fairy moving towards?",
+    "choices": {
+      "A": "no fairy there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "no fairy there"
+  },
+  {
+    "id": "validation_82",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_073.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the skateboard moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no skateboard there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_83",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_074.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_84",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_075.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no robot there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_85",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_076.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic horse moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robotic horse there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_86",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_077.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the raccoon moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no raccoon there",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_87",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_078.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot bus moving?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no robot bus there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_88",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_079.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the car moving towards?",
+    "choices": {
+      "A": "no car there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_89",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_080.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot referee moving towards?",
+    "choices": {
+      "A": "no robot referee there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_90",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_081.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "no robotic arm there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_91",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_082.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the garbage truck moving towards?",
+    "choices": {
+      "A": "no garbage truck there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_92",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_082.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the griffin moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no griffin there",
+      "D": "not moving"
+    },
+    "answer": "no griffin there"
+  },
+  {
+    "id": "validation_93",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_083.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic cheetah moving towards?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "away from the camera",
+      "C": "no robotic cheetah there",
+      "D": "not moving"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_94",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_084.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot fighter moving?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no robot fighter there",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_95",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_085.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the insect moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no insect there",
+      "C": "right",
+      "D": "away from the camera"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_96",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_086.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the drone moving towards?",
+    "choices": {
+      "A": "no drone there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_97",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_087.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "no train there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_98",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_088.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot dog moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robot dog there",
+      "C": "towards the camera",
+      "D": "away from the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_99",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_089.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no robot there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_100",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_090.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot auxiliary vehicle moving?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "no robot auxiliary vehicle there",
+      "C": "away from the camera",
+      "D": "not moving"
+    },
+    "answer": "away from the camera"
+  },
+  {
+    "id": "validation_101",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_091.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot bird flying?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no robot bird there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_102",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_091.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot car moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no robot car there",
+      "D": "right"
+    },
+    "answer": "no robot car there"
+  },
+  {
+    "id": "validation_103",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_092.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the scorpion moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no scorpion there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_104",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_093.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the flying drone transporter moving?",
+    "choices": {
+      "A": "no flying drone transporter there",
+      "B": "towards the camera",
+      "C": "not moving",
+      "D": "away from the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_105",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_094.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot referee moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no robot referee there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_106",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_095.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction are the molecules moving?",
+    "choices": {
+      "A": "no molecules there",
+      "B": "not moving",
+      "C": "inward",
+      "D": "outward"
+    },
+    "answer": "outward"
+  },
+  {
+    "id": "validation_107",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_096.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "no robot there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_108",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_097.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic kangaroo moving towards?",
+    "choices": {
+      "A": "no robotic kangaroo there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_109",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_098.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bicycle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no bicycle there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_110",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_099.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bus moving towards?",
+    "choices": {
+      "A": "no bus there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_111",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_100.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the griffin moving towards?",
+    "choices": {
+      "A": "no griffin there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "no griffin there"
+  },
+  {
+    "id": "validation_112",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_100.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the suitcase moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no suitcase there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_113",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_101.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the submarine moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no submarine there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_114",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_102.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot kangaroo moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no robot kangaroo there",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_115",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_103.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "no robot there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_116",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_104.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robot there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_117",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_105.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the limousine moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no limousine there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_118",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_106.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the truck moving?",
+    "choices": {
+      "A": "left",
+      "B": "no truck there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_119",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_107.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the bat flying?",
+    "choices": {
+      "A": "downward",
+      "B": "no bat there",
+      "C": "not moving",
+      "D": "upward"
+    },
+    "answer": "downward"
+  },
+  {
+    "id": "validation_120",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_108.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the autonomous construction vehicle moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no autonomous construction vehicle there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_121",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_109.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the humanoid chef moving?",
+    "choices": {
+      "A": "no humanoid chef there",
+      "B": "away from the camera",
+      "C": "not moving",
+      "D": "towards the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_122",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_109.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the caterpillar moving?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no caterpillar there"
+    },
+    "answer": "no caterpillar there"
+  },
+  {
+    "id": "validation_123",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_110.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the balloon moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no balloon there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_124",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_111.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the exoskeleton moving towards?",
+    "choices": {
+      "A": "no exoskeleton there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_125",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_112.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot hand moving?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no robot hand there",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_126",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_113.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the insect moving towards?",
+    "choices": {
+      "A": "no insect there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_127",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_114.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "right",
+      "D": "no robot there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_128",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_115.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the garbage truck moving towards?",
+    "choices": {
+      "A": "no garbage truck there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_129",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_116.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic space probe moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no robotic space probe there",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_130",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_117.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the dragon moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no dragon there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "no dragon there"
+  },
+  {
+    "id": "validation_131",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_117.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic space probe moving towards?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "away from the camera",
+      "C": "no robotic space probe there",
+      "D": "left"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_132",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_118.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no train there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_133",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_119.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic surgical arm moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robotic surgical arm there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_134",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_120.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the construction vehicle moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no construction vehicle there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_135",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_121.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no robotic arm there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_136",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_122.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the machine moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no machine there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_137",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_123.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the mars explorer moving?",
+    "choices": {
+      "A": "right and towards the camera",
+      "B": "left and away from the camera",
+      "C": "not moving",
+      "D": "no mars explorer there"
+    },
+    "answer": "right and towards the camera"
+  },
+  {
+    "id": "validation_138",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_124.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the snail moving towards at first?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no snail there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_139",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_125.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the snowplow moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no snowplow there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_140",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_126.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the android in the background moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "away from the camera",
+      "C": "no android there",
+      "D": "towards the camera"
+    },
+    "answer": "away from the camera"
+  },
+  {
+    "id": "validation_141",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_126.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the dragon moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no dragon there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "no dragon there"
+  },
+  {
+    "id": "validation_142",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_127.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the battle robot moving towards?",
+    "choices": {
+      "A": "no battle robot there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_143",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_128.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "no robot there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_144",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_129.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the delivery truck moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no delivery truck there",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_145",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_130.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic space probe moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "away from the camera",
+      "C": "towards the camera",
+      "D": "no robotic space probe there"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_146",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_131.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the limousine moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no limousine there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_147",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_132.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the hover bike moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no hover bike there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_148",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_133.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no train there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_149",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_134.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which way is the flying transporter rotating?",
+    "choices": {
+      "A": "no flying transporter there",
+      "B": "not rotating",
+      "C": "clockwise",
+      "D": "counter-clockwise"
+    },
+    "answer": "not rotating"
+  },
+  {
+    "id": "validation_150",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_135.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the ghost moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no ghost there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "no ghost there"
+  },
+  {
+    "id": "validation_151",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_135.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robotic arm there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_152",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_136.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the puffin moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no puffin there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_153",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_137.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic insect moving towards?",
+    "choices": {
+      "A": "no robotic insect there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_154",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_138.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the monorail train moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no monorail train there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_155",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_139.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the astronaut moving towards?",
+    "choices": {
+      "A": "no astronaut there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_156",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_140.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic mining machine moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no robotic mining machine there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_157",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_141.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the robotic war vehicle move?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "not moving",
+      "C": "no robotic war vehicle there",
+      "D": "away from the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_158",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_142.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the humanoid robot moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "no humanoid robot there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_159",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_143.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the submarine moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no submarine there",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_160",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_144.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the phantom moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no phantom there",
+      "D": "right"
+    },
+    "answer": "no phantom there"
+  },
+  {
+    "id": "validation_161",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_144.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic surgical arm moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no robotic surgical arm there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_162",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_145.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the garbage sweeper moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no garbage sweeper there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_163",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_146.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the caterpillar moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no caterpillar there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_164",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_147.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the tank moving towards?",
+    "choices": {
+      "A": "no tank there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_165",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_148.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the recreational vehicle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no recreational vehicle there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_166",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_149.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic surgical arm moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no robotic surgical arm there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_167",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_150.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the farming vehicle moving towards?",
+    "choices": {
+      "A": "no farming vehicle there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_168",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_151.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no train there",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_169",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_152.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the wheelchair moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no wheelchair there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_170",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_153.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the alien moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no alien there",
+      "D": "left"
+    },
+    "answer": "no alien there"
+  },
+  {
+    "id": "validation_171",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_153.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the turtle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no turtle there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_172",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_154.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the general flow of the particles?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no general flow there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_173",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_155.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the truck moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no truck there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_174",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_156.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic scorpion moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no robotic scorpion there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_175",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_157.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the garbage truck moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no garbage truck there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_176",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_158.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the drone moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no drone there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_177",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_159.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the limousine moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no limousine there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_178",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_160.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the hovercar moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no hovercar there",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_179",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_161.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the train moving towards at first?",
+    "choices": {
+      "A": "no train there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_180",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_162.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the car moving?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no car there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_181",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_162.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the lion moving?",
+    "choices": {
+      "A": "left",
+      "B": "no lion there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "no lion there"
+  },
+  {
+    "id": "validation_182",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_163.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the caterpillar moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "right",
+      "D": "no caterpillar there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_183",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_164.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the police vehicle moving towards?",
+    "choices": {
+      "A": "no police vehicle there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_184",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_165.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the digger moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no digger there",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_185",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_166.mp4",
+    "question_type": "multiple-choice",
+    "question": "What way is the fish rotating?",
+    "choices": {
+      "A": "clockwise",
+      "B": "counter-clockwise",
+      "C": "not rotating",
+      "D": "no fish there"
+    },
+    "answer": "not rotating"
+  },
+  {
+    "id": "validation_186",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_167.mp4",
+    "question_type": "multiple-choice",
+    "question": "What way is the robotic caterpillar rotating?",
+    "choices": {
+      "A": "not rotating",
+      "B": "no robotic caterpillar there",
+      "C": "counter-clockwise",
+      "D": "clockwise"
+    },
+    "answer": "not rotating"
+  },
+  {
+    "id": "validation_187",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_168.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_188",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_169.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the wheelchair moving towards?",
+    "choices": {
+      "A": "no wheelchair there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_189",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_170.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the self-driving garbage truck moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no self-driving garbage truck there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_190",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_171.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the insect turn?",
+    "choices": {
+      "A": "no insect there",
+      "B": "clockwise",
+      "C": "not moving",
+      "D": "anticlockwise"
+    },
+    "answer": "anticlockwise"
+  },
+  {
+    "id": "validation_191",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_171.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot griffin moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robot griffin there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "no robot griffin there"
+  },
+  {
+    "id": "validation_192",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_172.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the snowmobile moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "towards the camera",
+      "C": "away from the camera",
+      "D": "no snowmobile there"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_193",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_173.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the vehicle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no vehicle there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_194",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_174.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the scorpion robot moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no scorpion robot there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_195",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_175.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robot there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_196",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_176.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the truck moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no truck there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_197",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_177.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot digger moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robot digger there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_198",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_178.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the tank moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no tank there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_199",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_179.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the space rover moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no space rover there",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_200",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_180.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the fairy moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no fairy there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "no fairy there"
+  },
+  {
+    "id": "validation_201",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_180.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic harvester moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no robotic harvester there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_202",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_181.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot person moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no robot person there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_203",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_182.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the harvester moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no harvester there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_204",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_183.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the harvester moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no harvester there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_205",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_184.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_206",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_185.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the scorpion robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no scorpion robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_207",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_186.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the delivery truck moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no delivery truck there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_208",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_187.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no robot there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_209",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_188.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the balloon moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no balloon there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_210",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_189.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the bike move?",
+    "choices": {
+      "A": "no bike there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_211",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_189.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the dragon move?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no dragon there",
+      "D": "not moving"
+    },
+    "answer": "no dragon there"
+  },
+  {
+    "id": "validation_212",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_190.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "towards the camera",
+      "C": "away from the camera",
+      "D": "no firefighter there"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_213",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_191.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "no robot there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_214",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_192.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the car moving?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no car there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_215",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_193.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic snow owl moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robotic snow owl there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_216",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_194.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the wheelchair moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no wheelchair there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_217",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_195.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic museum guide moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no robotic museum guide there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_218",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_196.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the flying ship moving?",
+    "choices": {
+      "A": "no flying ship there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_219",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_197.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the police vehicle moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no police vehicle there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_220",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_198.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the phantom moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no phantom there",
+      "D": "left"
+    },
+    "answer": "no phantom there"
+  },
+  {
+    "id": "validation_221",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_198.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no robotic arm there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_222",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_199.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the cobot's body moving?",
+    "choices": {
+      "A": "no cobot's body there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_223",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_200.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the bat flying?",
+    "choices": {
+      "A": "not moving",
+      "B": "away from the camera",
+      "C": "no bat there",
+      "D": "towards the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_224",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_201.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the car moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no car there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_225",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_202.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the whale moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no whale there",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_226",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_203.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_227",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_204.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the humanoid robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no humanoid robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_228",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_205.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the hovercar moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no hovercar there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_229",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_206.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the horse moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no horse there",
+      "D": "left"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_230",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_207.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robotic arm moving?",
+    "choices": {
+      "A": "no robotic arm there",
+      "B": "towards the camera",
+      "C": "away from the camera",
+      "D": "not moving"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_231",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_207.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the shark moving?",
+    "choices": {
+      "A": "left",
+      "B": "no shark there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "no shark there"
+  },
+  {
+    "id": "validation_232",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_208.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the drone move?",
+    "choices": {
+      "A": "no drone there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_233",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_209.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the truck moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no truck there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_234",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_210.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robotic arm there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_235",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_211.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the limo moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "no limo there",
+      "C": "away from the camera and to the left",
+      "D": "toward from the camera and to the right"
+    },
+    "answer": "away from the camera and to the left"
+  },
+  {
+    "id": "validation_236",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_212.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robotic arm there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_237",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_213.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot chef moving towards?",
+    "choices": {
+      "A": "no robot chef there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_238",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_214.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the insect turn?",
+    "choices": {
+      "A": "counter-clockwise",
+      "B": "no insect there",
+      "C": "not moving",
+      "D": "clockwise"
+    },
+    "answer": "counter-clockwise"
+  },
+  {
+    "id": "validation_239",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_215.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic otter moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robotic otter there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_240",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_216.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the ambulance moving?",
+    "choices": {
+      "A": "away from the camera",
+      "B": "towards the camera",
+      "C": "not moving",
+      "D": "no ambulance there"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_241",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_216.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the dog move?",
+    "choices": {
+      "A": "no dog there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "no dog there"
+  },
+  {
+    "id": "validation_242",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_217.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the rover moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no rover there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_243",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_218.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no robotic arm there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_244",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_219.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the flying ship moving?",
+    "choices": {
+      "A": "no flying ship there",
+      "B": "away from the camera",
+      "C": "towards the camera",
+      "D": "not moving"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_245",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_220.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the garbage truck moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no garbage truck there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_246",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_221.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the tank moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no tank there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_247",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_222.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot referee moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no robot referee there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_248",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_223.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the cheetah moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no cheetah there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_249",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_224.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the ambulance moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no ambulance there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_250",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_225.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the dragon moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no dragon there",
+      "D": "not moving"
+    },
+    "answer": "no dragon there"
+  },
+  {
+    "id": "validation_251",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_225.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the scorpion moving towards?",
+    "choices": {
+      "A": "no scorpion there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_252",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_226.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the racing car moving?",
+    "choices": {
+      "A": "forwards then backwards",
+      "B": "not moving",
+      "C": "no racing car there",
+      "D": "backwards then forwards"
+    },
+    "answer": "forwards then backwards"
+  },
+  {
+    "id": "validation_253",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_227.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the police vehicle moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no police vehicle there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_254",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_228.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bicycle moving towards?",
+    "choices": {
+      "A": "no bicycle there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_255",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_229.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_256",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_230.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the car moving?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "away from the camera",
+      "C": "no car there",
+      "D": "not moving"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_257",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_231.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the tractor moving?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no tractor there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_258",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_232.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the robotic arm move?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robotic arm there",
+      "C": "away from the camera",
+      "D": "towards the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_259",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_233.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic bird moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no robotic bird there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_260",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_234.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the drone moving towards?",
+    "choices": {
+      "A": "no drone there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_261",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_234.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the griffin moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no griffin there",
+      "D": "right"
+    },
+    "answer": "no griffin there"
+  },
+  {
+    "id": "validation_262",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_235.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no robot there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_263",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_236.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the pod moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no pod there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_264",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_237.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the e-bike moving?",
+    "choices": {
+      "A": "left and towards the camera",
+      "B": "not moving",
+      "C": "no e-bike there",
+      "D": "right and towards the camera"
+    },
+    "answer": "left and towards the camera"
+  },
+  {
+    "id": "validation_265",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_238.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic jellyfish moving towards?",
+    "choices": {
+      "A": "no robotic jellyfish there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_266",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_239.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the racing car moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no racing car there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_267",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_240.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot horse moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robot horse there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_268",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_241.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the vehicle moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no vehicle there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_269",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_242.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the drone flying?",
+    "choices": {
+      "A": "not moving",
+      "B": "away from the camera",
+      "C": "no drone there",
+      "D": "toward from the camera and to the right"
+    },
+    "answer": "away from the camera"
+  },
+  {
+    "id": "validation_270",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_243.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the scorpion robot moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no scorpion robot there",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_271",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_243.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the troll moving towards?",
+    "choices": {
+      "A": "no troll there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "no troll there"
+  },
+  {
+    "id": "validation_272",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_244.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot referee moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robot referee there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_273",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_245.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic wheelchair moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no robotic wheelchair there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_274",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_246.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic fish moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no robotic fish there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_275",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_247.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the submarine moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no submarine there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_276",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_248.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the walker moving towards?",
+    "choices": {
+      "A": "no walker there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_277",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_249.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic fish moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no robotic fish there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_278",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_250.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the ambulance moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no ambulance there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_279",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_251.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic grasshopper moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no robotic grasshopper there",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_280",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_252.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the griffin moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no griffin there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "no griffin there"
+  },
+  {
+    "id": "validation_281",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_252.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no robotic arm there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_282",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_253.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the train moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "away from the camera",
+      "C": "no train there",
+      "D": "towards the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_283",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_254.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the monorail train moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no monorail train there",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_284",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_255.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot chef moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no robot chef there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_285",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_256.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the flying ball move?",
+    "choices": {
+      "A": "no flying ball there",
+      "B": "not moving",
+      "C": "away from the camera",
+      "D": "towards the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_286",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_257.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the vacuum cleaner moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no vacuum cleaner there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_287",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_258.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the garbage truck moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no garbage truck there",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_288",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_259.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the agricultural robot moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "no agricultural robot there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_289",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_260.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the drone moving?",
+    "choices": {
+      "A": "no drone there",
+      "B": "not moving",
+      "C": "down",
+      "D": "up"
+    },
+    "answer": "up"
+  },
+  {
+    "id": "validation_290",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_261.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the delivery robot moving towards?",
+    "choices": {
+      "A": "no delivery robot there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_291",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_261.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the dragon moving towards?",
+    "choices": {
+      "A": "no dragon there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "no dragon there"
+  },
+  {
+    "id": "validation_292",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_262.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic gazelle moving towards?",
+    "choices": {
+      "A": "no robotic gazelle there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_293",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_263.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic arm moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no robotic arm there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_294",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_264.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the harvester moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no harvester there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_295",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_265.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the butterfly moving towards?",
+    "choices": {
+      "A": "no butterfly there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_296",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_266.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the rover moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "right",
+      "D": "no rover there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_297",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_267.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the insect move?",
+    "choices": {
+      "A": "not moving",
+      "B": "no insect there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_298",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_268.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_299",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_269.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "no robot there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_300",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_270.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot moving?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "not moving",
+      "C": "away from the camera",
+      "D": "no robot there"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_301",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_270.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the snake moving?",
+    "choices": {
+      "A": "right",
+      "B": "no snake there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "no snake there"
+  },
+  {
+    "id": "validation_302",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_271.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robot there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_303",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_272.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic snake moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no robotic snake there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_304",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_273.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robotic body moving?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no robotic body there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_305",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_274.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic insect moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no robotic insect there",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_306",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_275.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic cobra moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no robotic cobra there",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_307",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_276.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the snake's head moving?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no snake's head there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_308",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_277.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the orb moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no orb there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_309",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_278.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bus moving towards?",
+    "choices": {
+      "A": "no bus there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_310",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_279.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the police car move?",
+    "choices": {
+      "A": "no police car there",
+      "B": "towards the camera",
+      "C": "not moving",
+      "D": "away from the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_311",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_279.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the dog move?",
+    "choices": {
+      "A": "left",
+      "B": "no dog there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "no dog there"
+  },
+  {
+    "id": "validation_312",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_280.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_313",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_281.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the android moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no android there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_314",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_282.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic guard dog moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robotic guard dog there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_315",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_283.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the probe moving towards?",
+    "choices": {
+      "A": "no probe there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_316",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_284.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the vacuum cleaner moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "no vacuum cleaner there",
+      "C": "right and away from the camera",
+      "D": "left and towards the camera"
+    },
+    "answer": "left and towards the camera"
+  },
+  {
+    "id": "validation_317",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_285.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the rover moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no rover there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_318",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_286.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the racing car moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no racing car there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_319",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_287.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_320",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_288.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the AI moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no AI there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_321",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_288.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the dragon moving towards?",
+    "choices": {
+      "A": "no dragon there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "no dragon there"
+  },
+  {
+    "id": "validation_322",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_289.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic guard dog moving towards?",
+    "choices": {
+      "A": "no robotic guard dog there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_323",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_290.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the train moving?",
+    "choices": {
+      "A": "right",
+      "B": "no train there",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_324",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_291.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the humanoid moving?",
+    "choices": {
+      "A": "away from the camera",
+      "B": "no humanoid there",
+      "C": "not moving",
+      "D": "towards the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_325",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_292.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the Mars rover moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no Mars rover there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_326",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_293.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the ambulance moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no ambulance there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_327",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_294.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the sea creature moving towards?",
+    "choices": {
+      "A": "no squid there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_328",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_295.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the humanoid walking?",
+    "choices": {
+      "A": "no humanoid there",
+      "B": "towards the camera",
+      "C": "not moving",
+      "D": "away from the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_329",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_296.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot vaccum moving?",
+    "choices": {
+      "A": "no robot vacuum there",
+      "B": "away from the camera",
+      "C": "towards the camera",
+      "D": "not moving"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_330",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_297.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the cheetah moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "right",
+      "D": "no cheetah there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_331",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_298.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot bird flying?",
+    "choices": {
+      "A": "away from the camera",
+      "B": "no robot bird there",
+      "C": "not moving",
+      "D": "towards the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_332",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_298.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the frog moving?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no frog there",
+      "D": "not moving"
+    },
+    "answer": "no frog there"
+  },
+  {
+    "id": "validation_333",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_299.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the rover moving towards?",
+    "choices": {
+      "A": "no rover there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_334",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_300.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the turtle moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no turtle there",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_335",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_301.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic jellyfish moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no robotic jellyfish there",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_336",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_302.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the monowheel moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no monowheel there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_337",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_303.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the mail truck moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no mail truck there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_338",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_304.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the flying car moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no flying car there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_339",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_305.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot tank moving?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "not moving",
+      "C": "no robot tank there",
+      "D": "away from the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_340",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_306.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bicycle moving towards?",
+    "choices": {
+      "A": "no bicycle there",
+      "B": "right",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_341",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_307.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the jellyfish moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no jellyfish there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_342",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_307.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the unicorn moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no unicorn there",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "no unicorn there"
+  },
+  {
+    "id": "validation_343",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_308.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the snowplow moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no snowplow there",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_344",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_309.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the ambulance moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no ambulance there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_345",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_310.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the rover moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no rover there",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_346",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_311.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the construction vehicle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no construction vehicle there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_347",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_312.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic moose moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "right",
+      "D": "no robotic moose there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_348",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_313.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the cobot moving?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no cobot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_349",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_314.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no train there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_350",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_315.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the truck moving?",
+    "choices": {
+      "A": "no truck there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_351",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_316.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robotic dog moving?",
+    "choices": {
+      "A": "away from the camera",
+      "B": "towards the camera",
+      "C": "not moving",
+      "D": "no robotic dog there"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_352",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_316.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the cap moving?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no cap there",
+      "D": "left"
+    },
+    "answer": "no cap there"
+  },
+  {
+    "id": "validation_353",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_317.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the vehicle moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no vehicle there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_354",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_318.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the construction vehicle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no construction vehicle there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_355",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_319.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no train there",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_356",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_320.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the train moving?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no train there",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_357",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_321.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic dinosaur moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robotic dinosaur there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_358",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_322.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the limousine moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no limousine there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_359",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_323.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "no train there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_360",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_324.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic bison moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no robotic bison there",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_361",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_325.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the unicorn moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no unicorn there"
+    },
+    "answer": "no unicorn there"
+  },
+  {
+    "id": "validation_362",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_325.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the vending cart moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no vending cart there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_363",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_326.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the sports car moving towards?",
+    "choices": {
+      "A": "no sports car there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_364",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_327.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the rover moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no rover there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_365",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_328.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the food delivery robot moving?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "away from the camera",
+      "C": "no food delivery robot there",
+      "D": "not moving"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_366",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_329.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the harvester moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no harvester there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_367",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_330.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the sports car moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no sports car there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_368",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_331.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic jellyfish moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no robotic jellyfish there",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_369",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_332.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the water falling?",
+    "choices": {
+      "A": "no water there",
+      "B": "not moving",
+      "C": "down",
+      "D": "up"
+    },
+    "answer": "down"
+  },
+  {
+    "id": "validation_370",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_333.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the wheelchair moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "towards the camera",
+      "C": "away from the camera",
+      "D": "no wheelchair there"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_371",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_334.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the alien moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no alien there"
+    },
+    "answer": "no alien there"
+  },
+  {
+    "id": "validation_372",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_334.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the flying taxi moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no flying taxi there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_373",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_335.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the robot arm move?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no robot arm there",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_374",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_336.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic window cleaner moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no robotic window cleaner there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_375",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_337.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bus moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no bus there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_376",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_338.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the train moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "no train there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_377",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_339.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the ambulance moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no ambulance there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_378",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_340.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_379",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_341.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the car moving towards?",
+    "choices": {
+      "A": "no car there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_380",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_342.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the dinosaur moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no dinosaur there",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_381",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_343.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the alien moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no alien there"
+    },
+    "answer": "no alien there"
+  },
+  {
+    "id": "validation_382",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_343.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the police vehicle moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "no police vehicle there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_383",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_344.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the vehicle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no vehicle there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_384",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_345.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the shark moving?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no shark there",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_385",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_346.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the dinosaur moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no dinosaur there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_386",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_347.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the vehicle moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no vehicle there",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_387",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_348.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "no robot there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_388",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_349.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "no robot there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_389",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_350.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic kangaroo moving towards?",
+    "choices": {
+      "A": "no robotic kangaroo there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_390",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_351.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the robot moving?",
+    "choices": {
+      "A": "no robot there",
+      "B": "not moving",
+      "C": "towards the camera",
+      "D": "away from the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_391",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_352.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the dinosaur-like creature moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no dinosaur-like creature there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_392",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_352.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the fairy moving towards?",
+    "choices": {
+      "A": "no fairy there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "no fairy there"
+  },
+  {
+    "id": "validation_393",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_353.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic king crab moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robotic king crab there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_394",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_354.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the robot cleaner move?",
+    "choices": {
+      "A": "away from the camera",
+      "B": "not moving",
+      "C": "no robot cleaner there",
+      "D": "towards the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_395",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_355.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the robotic worker move?",
+    "choices": {
+      "A": "not moving",
+      "B": "away from the camera",
+      "C": "toward the camera",
+      "D": "no robotic worker there"
+    },
+    "answer": "away from the camera"
+  },
+  {
+    "id": "validation_396",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_356.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the snowplow moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no snowplow there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_397",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_357.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the farming vehicle moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no farming vehicle there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_398",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_358.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no train there",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_399",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_359.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the car moving?",
+    "choices": {
+      "A": "away from the camera",
+      "B": "toward the camera",
+      "C": "not moving",
+      "D": "no car there"
+    },
+    "answer": "away from the camera"
+  },
+  {
+    "id": "validation_400",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_360.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the garbage collection vehicle moving towards?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "no garbage collection vehicle there",
+      "C": "not moving",
+      "D": "away from the camera"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_401",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_361.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the alien moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no alien there"
+    },
+    "answer": "no alien there"
+  },
+  {
+    "id": "validation_402",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_361.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the construction vehicle moving towards?",
+    "choices": {
+      "A": "no construction vehicle there",
+      "B": "not moving",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_403",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_362.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the drone flying?",
+    "choices": {
+      "A": "up",
+      "B": "down",
+      "C": "no drone there",
+      "D": "not moving"
+    },
+    "answer": "up"
+  },
+  {
+    "id": "validation_404",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_363.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the turtle moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "no turtle there",
+      "D": "left"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_405",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_364.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the car moving?",
+    "choices": {
+      "A": "no car there",
+      "B": "toward the camera",
+      "C": "not moving",
+      "D": "away from the camera"
+    },
+    "answer": "away from the camera"
+  },
+  {
+    "id": "validation_406",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_365.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the android moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no android there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_407",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_366.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bus moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "no bus there",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_408",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_367.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the tractor moving?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no tractor there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_409",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_368.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the bicycle moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no bicycle there",
+      "D": "not moving"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_410",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_369.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the snowplow moving towards?",
+    "choices": {
+      "A": "no snowplow there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_411",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_370.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "towards the camera",
+      "B": "away from the camera",
+      "C": "not moving",
+      "D": "no train there"
+    },
+    "answer": "towards the camera"
+  },
+  {
+    "id": "validation_412",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_370.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the troll moving towards?",
+    "choices": {
+      "A": "no troll there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "no troll there"
+  },
+  {
+    "id": "validation_413",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_371.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the platypus moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no platypus there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_414",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_372.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_415",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_373.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic archaeologist moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no robotic archaeologist there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_416",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_374.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction did the robot shrimp move?",
+    "choices": {
+      "A": "no robot shrimp there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_417",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_375.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the rover moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no rover there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_418",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_376.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic insect moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no robotic insect there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_419",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_377.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the tank moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no tank there",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_420",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_378.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic snake moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no robotic snake there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_421",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_379.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the griffin moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "left",
+      "D": "no griffin there"
+    },
+    "answer": "no griffin there"
+  },
+  {
+    "id": "validation_422",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_379.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the rover moving towards?",
+    "choices": {
+      "A": "no rover there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_423",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_380.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic cheetah moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no robotic cheetah there",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_424",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_381.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the rover moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no rover there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_425",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_382.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the blimp moving towards?",
+    "choices": {
+      "A": "no blimps there",
+      "B": "left",
+      "C": "away from the camera",
+      "D": "right"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_426",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_383.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the dinosaur moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "no dinosaur there",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_427",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_384.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the battle robot moving towards?",
+    "choices": {
+      "A": "no battle robot there",
+      "B": "left",
+      "C": "not moving",
+      "D": "right"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_428",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_385.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the rover moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "not moving",
+      "C": "no rover there",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_429",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_386.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the Mars rover moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "right",
+      "C": "left",
+      "D": "no Mars rover there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_430",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_387.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no train there",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_431",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_388.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the submarine moving?",
+    "choices": {
+      "A": "no submarine there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_432",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_388.mp4",
+    "question_type": "multiple-choice",
+    "question": "Which direction is the ship moving?",
+    "choices": {
+      "A": "right",
+      "B": "no ship there",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "no ship there"
+  },
+  {
+    "id": "validation_433",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_389.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the drone moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no drone there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_434",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_390.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the battle robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no battle robot there"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_435",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_391.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the jellyfish moving towards?",
+    "choices": {
+      "A": "no jellyfish there",
+      "B": "right",
+      "C": "left",
+      "D": "not moving"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_436",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_392.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the train moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "left",
+      "C": "not moving",
+      "D": "no train there"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_437",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_393.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the ride moving towards?",
+    "choices": {
+      "A": "no ride there",
+      "B": "left",
+      "C": "right",
+      "D": "not moving"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_438",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_394.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "right",
+      "C": "not moving",
+      "D": "no robot there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_439",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_395.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the submarine moving towards?",
+    "choices": {
+      "A": "no submarine there",
+      "B": "not moving",
+      "C": "right",
+      "D": "left"
+    },
+    "answer": "right"
+  },
+  {
+    "id": "validation_440",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_396.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the sleek, metallic scorpion-like creature moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "left",
+      "C": "no sleek, metallic scorpion-like creature there",
+      "D": "right"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_441",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_397.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the ambulance moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no ambulance there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_442",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_397.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the dragon moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "no dragon there",
+      "D": "right"
+    },
+    "answer": "no dragon there"
+  },
+  {
+    "id": "validation_443",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_398.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the wheelchair moving towards?",
+    "choices": {
+      "A": "left",
+      "B": "not moving",
+      "C": "right",
+      "D": "no wheelchair there"
+    },
+    "answer": "left"
+  },
+  {
+    "id": "validation_444",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_399.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robot moving towards?",
+    "choices": {
+      "A": "right",
+      "B": "no robot there",
+      "C": "not moving",
+      "D": "left"
+    },
+    "answer": "not moving"
+  },
+  {
+    "id": "validation_445",
+    "video": "https://huggingface.co/datasets/shijiezhou/VLM4D/resolve/main/videos_synthetic/synth_400.mp4",
+    "question_type": "multiple-choice",
+    "question": "What direction is the robotic fish moving towards?",
+    "choices": {
+      "A": "not moving",
+      "B": "no robotic fish there",
+      "C": "left",
+      "D": "right"
+    },
+    "answer": "right"
+  }
+]

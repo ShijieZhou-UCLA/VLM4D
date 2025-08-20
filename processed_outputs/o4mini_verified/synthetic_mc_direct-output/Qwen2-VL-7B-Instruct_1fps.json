@@ -1,0 +1,6232 @@
+[
+    {
+        "id": "validation_1",
+        "question": "Which direction is the robotic arm moving?",
+        "choices": {
+            "A": "left",
+            "B": "no robotic arm there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_2",
+        "question": "Which direction is the car driving?",
+        "choices": {
+            "A": "left",
+            "B": "no car there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "no car there",
+        "extracted_answer": "B: no car there",
+        "correct": true
+    },
+    {
+        "id": "validation_3",
+        "question": "Which direction did the compost truck rotate?",
+        "choices": {
+            "A": "no compost truck there",
+            "B": "clockwise",
+            "C": "counter-clockwise",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "clockwise",
+        "extracted_answer": "C: counter-clockwise",
+        "correct": false
+    },
+    {
+        "id": "validation_4",
+        "question": "What direction is the drone moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no drone there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_5",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "no robot there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_6",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no robot there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_7",
+        "question": "Which way is the robot scorpion rotating?",
+        "choices": {
+            "A": "no robot scorpion there",
+            "B": "clockwise",
+            "C": "not moving",
+            "D": "counter-clockwise"
+        },
+        "response": "B",
+        "ground_truth_answer": "clockwise",
+        "extracted_answer": "B: clockwise",
+        "correct": true
+    },
+    {
+        "id": "validation_8",
+        "question": "Which direction is the spaceship moving?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no spaceship there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_9",
+        "question": "Which direction is the insect moving?",
+        "choices": {
+            "A": "no insect there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_10",
+        "question": "What direction is the snowplow moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no snowplow there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_11",
+        "question": "What direction is the alien moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no alien there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "no alien there",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_12",
+        "question": "What direction is the robotic archaeologist moving towards?",
+        "choices": {
+            "A": "no robotic archaeologist there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_13",
+        "question": "What direction is the bus moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no bus there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_14",
+        "question": "Which direction is the robot's right foot moving?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "no robot's foot there",
+            "C": "not moving",
+            "D": "away from the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: away from the camera",
+        "correct": false
+    },
+    {
+        "id": "validation_15",
+        "question": "Which direction is the jellyfish moving?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no jellyfish there"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_16",
+        "question": "What direction is the horse moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no horse there"
+        },
+        "response": "B",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_17",
+        "question": "What direction is the limousine moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no limousine there"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_18",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no robotic arm there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_19",
+        "question": "What direction is the drone moving towards?",
+        "choices": {
+            "A": "no drone there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_20",
+        "question": "Which direction is the exploration rover moving?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "not moving",
+            "C": "no exploration rover there",
+            "D": "away from the camera"
+        },
+        "response": "A",
+        "ground_truth_answer": "away from the camera",
+        "extracted_answer": "A: towards the camera",
+        "correct": false
+    },
+    {
+        "id": "validation_21",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no robot there",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: no robot there",
+        "correct": false
+    },
+    {
+        "id": "validation_22",
+        "question": "What direction is the unicorn moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no unicorn there"
+        },
+        "response": "B",
+        "ground_truth_answer": "no unicorn there",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_23",
+        "question": "What direction is the robotic dog moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no robotic dog there",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: no robotic dog there",
+        "correct": false
+    },
+    {
+        "id": "validation_24",
+        "question": "What direction is the robotic harvester moving towards?",
+        "choices": {
+            "A": "no robotic harvester there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_25",
+        "question": "What direction is the harvester moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "right",
+            "D": "no harvester there"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_26",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no robotic arm there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_27",
+        "question": "What direction is the bird moving towards?",
+        "choices": {
+            "A": "no bird there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_28",
+        "question": "What direction is the robotic window cleaner moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no robotic window cleaner there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_29",
+        "question": "What direction is the truck moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no truck there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_30",
+        "question": "What direction is the motorcycle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no motorcycle there"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_31",
+        "question": "What direction is the griffin moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no griffin there"
+        },
+        "response": "A",
+        "ground_truth_answer": "no griffin there",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_32",
+        "question": "What direction is the turtle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "right",
+            "D": "no turtle there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_33",
+        "question": "What direction is the robotic window cleaner moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no robotic window cleaner there",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_34",
+        "question": "What direction is the Mars rover moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no Mars rover there",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_35",
+        "question": "What direction is the sports car moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no sports car there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_36",
+        "question": "What direction is the bus moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no bus there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_37",
+        "question": "What direction is the taxi moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no taxi there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_38",
+        "question": "What direction is the taxi moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no taxi there",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_39",
+        "question": "What direction is the robotic fish moving towards?",
+        "choices": {
+            "A": "no robotic fish there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_40",
+        "question": "What direction is the astronaut moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no astronaut there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_41",
+        "question": "What direction is the kangaroo moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no kangaroo there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_42",
+        "question": "What direction is the troll moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no troll there"
+        },
+        "response": "A",
+        "ground_truth_answer": "no troll there",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_43",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no train there"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_44",
+        "question": "Which direction is the car moving?",
+        "choices": {
+            "A": "no car there",
+            "B": "away from the camera",
+            "C": "not moving",
+            "D": "towards the camera"
+        },
+        "response": "B",
+        "ground_truth_answer": "away from the camera",
+        "extracted_answer": "B: away from the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_45",
+        "question": "What direction is the robotic space probe moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robotic space probe there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: no robotic space probe there",
+        "correct": false
+    },
+    {
+        "id": "validation_46",
+        "question": "Which direction is the snow tractor moving?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no snow tractor there",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_47",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "no train there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_48",
+        "question": "What direction is the hovercar moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no hovercar there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_49",
+        "question": "What direction is the drone moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no drone there",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_50",
+        "question": "Which direction is the turtle moving?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no turtle there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_51",
+        "question": "What direction is the garbage truck moving towards?",
+        "choices": {
+            "A": "no garbage truck there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: no garbage truck there",
+        "correct": false
+    },
+    {
+        "id": "validation_52",
+        "question": "What direction is the phantom moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no phantom there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "no phantom there",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_53",
+        "question": "Which direction did the robot kangaroo turn?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robot kangaroo there",
+            "C": "clockwise",
+            "D": "anti-clockwise"
+        },
+        "response": "C",
+        "ground_truth_answer": "anti-clockwise",
+        "extracted_answer": "C: clockwise",
+        "correct": false
+    },
+    {
+        "id": "validation_54",
+        "question": "What direction is the robotic koi fish moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "right",
+            "D": "no robotic koi fish there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_55",
+        "question": "What direction is the robotic deer moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no robotic deer there",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_56",
+        "question": "What direction is the robotic dinosaur moving towards?",
+        "choices": {
+            "A": "no robotic dinosaur there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_57",
+        "question": "What direction is the bicycle moving towards?",
+        "choices": {
+            "A": "no bicycle there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_58",
+        "question": "Which direction is the utility truck moving?",
+        "choices": {
+            "A": "no utility truck there",
+            "B": "not moving",
+            "C": "away from the camera",
+            "D": "towards the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_59",
+        "question": "What direction is the bicycle moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no bicycle there",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_60",
+        "question": "What direction is the construction vehicle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no construction vehicle there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_61",
+        "question": "What direction is the fairy moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no fairy there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "no fairy there",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_62",
+        "question": "What direction is the taxi moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no taxi there",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_63",
+        "question": "What direction is the hover bike moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no hover bike there"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_64",
+        "question": "Which direction is the mars rover moving?",
+        "choices": {
+            "A": "no mars rover there",
+            "B": "towards the camera",
+            "C": "not moving",
+            "D": "away from the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: away from the camera",
+        "correct": false
+    },
+    {
+        "id": "validation_65",
+        "question": "What direction is the battle robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no battle robot there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_66",
+        "question": "What direction is the robotic vacuum cleaner moving towards?",
+        "choices": {
+            "A": "no robotic vacuum cleaner there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_67",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robot there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_68",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no robot there",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_69",
+        "question": "Which direction is the flying jetski moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "no flying jetski there",
+            "C": "right and backward",
+            "D": "left and forward"
+        },
+        "response": "D",
+        "ground_truth_answer": "left and forward",
+        "extracted_answer": "D: left and forward",
+        "correct": true
+    },
+    {
+        "id": "validation_70",
+        "question": "Which direction is the humanoid moving?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no humanoid there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_71",
+        "question": "Which way is the police car rotating?",
+        "choices": {
+            "A": "no police car there",
+            "B": "clockwise",
+            "C": "counter-clockwise",
+            "D": "not rotating"
+        },
+        "response": "C",
+        "ground_truth_answer": "not rotating",
+        "extracted_answer": "C: counter-clockwise",
+        "correct": false
+    },
+    {
+        "id": "validation_72",
+        "question": "Which direction did the skateboard move?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no skateboard there"
+        },
+        "response": "A",
+        "ground_truth_answer": "no skateboard there",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_73",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robot there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "C: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_74",
+        "question": "What direction is the limousine moving towards?",
+        "choices": {
+            "A": "no limousine there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_75",
+        "question": "Which direction is the car moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no car there",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_76",
+        "question": "What direction is the robotic insect moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no robotic insect there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_77",
+        "question": "What direction is the robotic window cleaner moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no robotic window cleaner there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_78",
+        "question": "What direction is the balloon moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no balloon there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_79",
+        "question": "Which direction is the robot kangaroo moving?",
+        "choices": {
+            "A": "right then left",
+            "B": "no robot kangaroo there",
+            "C": "left then right",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left then right",
+        "extracted_answer": "A: right then left",
+        "correct": false
+    },
+    {
+        "id": "validation_80",
+        "question": "What direction is the mining machine moving towards?",
+        "choices": {
+            "A": "no mining machine there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_81",
+        "question": "What direction is the fairy moving towards?",
+        "choices": {
+            "A": "no fairy there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "no fairy there",
+        "extracted_answer": "A: no fairy there",
+        "correct": true
+    },
+    {
+        "id": "validation_82",
+        "question": "What direction is the skateboard moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no skateboard there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_83",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no robot there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_84",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no robot there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_85",
+        "question": "What direction is the robotic horse moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robotic horse there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_86",
+        "question": "What direction is the raccoon moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no raccoon there",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_87",
+        "question": "Which direction is the robot bus moving?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no robot bus there"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_88",
+        "question": "What direction is the car moving towards?",
+        "choices": {
+            "A": "no car there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: right",
+        "correct": true
+    },
+    {
+        "id": "validation_89",
+        "question": "What direction is the robot referee moving towards?",
+        "choices": {
+            "A": "no robot referee there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_90",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "no robotic arm there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_91",
+        "question": "What direction is the garbage truck moving towards?",
+        "choices": {
+            "A": "no garbage truck there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_92",
+        "question": "What direction is the griffin moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no griffin there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "no griffin there",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_93",
+        "question": "What direction is the robotic cheetah moving towards?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "away from the camera",
+            "C": "no robotic cheetah there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "A: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_94",
+        "question": "Which direction is the robot fighter moving?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no robot fighter there",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_95",
+        "question": "What direction is the insect moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no insect there",
+            "C": "right",
+            "D": "away from the camera"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_96",
+        "question": "What direction is the drone moving towards?",
+        "choices": {
+            "A": "no drone there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_97",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "no train there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_98",
+        "question": "Which direction is the robot dog moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robot dog there",
+            "C": "towards the camera",
+            "D": "away from the camera"
+        },
+        "response": "C",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "C: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_99",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no robot there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_100",
+        "question": "Which direction is the robot auxiliary vehicle moving?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "no robot auxiliary vehicle there",
+            "C": "away from the camera",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "away from the camera",
+        "extracted_answer": "C: away from the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_101",
+        "question": "Which direction is the robot bird flying?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no robot bird there"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_102",
+        "question": "Which direction is the robot car moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no robot car there",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "no robot car there",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_103",
+        "question": "What direction is the scorpion moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no scorpion there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_104",
+        "question": "Which direction is the flying drone transporter moving?",
+        "choices": {
+            "A": "no flying drone transporter there",
+            "B": "towards the camera",
+            "C": "not moving",
+            "D": "away from the camera"
+        },
+        "response": "B",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "B: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_105",
+        "question": "What direction is the robot referee moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no robot referee there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_106",
+        "question": "Which direction are the molecules moving?",
+        "choices": {
+            "A": "no molecules there",
+            "B": "not moving",
+            "C": "inward",
+            "D": "outward"
+        },
+        "response": "D",
+        "ground_truth_answer": "outward",
+        "extracted_answer": "D: outward",
+        "correct": true
+    },
+    {
+        "id": "validation_107",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "no robot there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_108",
+        "question": "What direction is the robotic kangaroo moving towards?",
+        "choices": {
+            "A": "no robotic kangaroo there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_109",
+        "question": "What direction is the bicycle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no bicycle there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_110",
+        "question": "What direction is the bus moving towards?",
+        "choices": {
+            "A": "no bus there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_111",
+        "question": "What direction is the griffin moving towards?",
+        "choices": {
+            "A": "no griffin there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "no griffin there",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_112",
+        "question": "What direction is the suitcase moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no suitcase there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_113",
+        "question": "What direction is the submarine moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no submarine there"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: right",
+        "correct": true
+    },
+    {
+        "id": "validation_114",
+        "question": "Which direction is the robot kangaroo moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no robot kangaroo there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_115",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "no robot there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_116",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robot there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_117",
+        "question": "What direction is the limousine moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no limousine there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_118",
+        "question": "Which direction is the truck moving?",
+        "choices": {
+            "A": "left",
+            "B": "no truck there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_119",
+        "question": "Which direction is the bat flying?",
+        "choices": {
+            "A": "downward",
+            "B": "no bat there",
+            "C": "not moving",
+            "D": "upward"
+        },
+        "response": "D",
+        "ground_truth_answer": "downward",
+        "extracted_answer": "D: upward",
+        "correct": false
+    },
+    {
+        "id": "validation_120",
+        "question": "What direction is the autonomous construction vehicle moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no autonomous construction vehicle there",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_121",
+        "question": "Which direction is the humanoid chef moving?",
+        "choices": {
+            "A": "no humanoid chef there",
+            "B": "away from the camera",
+            "C": "not moving",
+            "D": "towards the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_122",
+        "question": "Which direction is the caterpillar moving?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no caterpillar there"
+        },
+        "response": "C",
+        "ground_truth_answer": "no caterpillar there",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_123",
+        "question": "What direction is the balloon moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no balloon there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_124",
+        "question": "What direction is the exoskeleton moving towards?",
+        "choices": {
+            "A": "no exoskeleton there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_125",
+        "question": "Which direction is the robot hand moving?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no robot hand there",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "B: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_126",
+        "question": "What direction is the insect moving towards?",
+        "choices": {
+            "A": "no insect there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_127",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "right",
+            "D": "no robot there"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_128",
+        "question": "What direction is the garbage truck moving towards?",
+        "choices": {
+            "A": "no garbage truck there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: right",
+        "correct": true
+    },
+    {
+        "id": "validation_129",
+        "question": "What direction is the robotic space probe moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no robotic space probe there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_130",
+        "question": "What direction is the dragon moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no dragon there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "no dragon there",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_131",
+        "question": "What direction is the robotic space probe moving towards?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "away from the camera",
+            "C": "no robotic space probe there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "A: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_132",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no train there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_133",
+        "question": "What direction is the robotic surgical arm moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robotic surgical arm there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_134",
+        "question": "What direction is the construction vehicle moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no construction vehicle there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_135",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no robotic arm there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_136",
+        "question": "What direction is the machine moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no machine there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_137",
+        "question": "Which direction is the mars explorer moving?",
+        "choices": {
+            "A": "right and towards the camera",
+            "B": "left and away from the camera",
+            "C": "not moving",
+            "D": "no mars explorer there"
+        },
+        "response": "B",
+        "ground_truth_answer": "right and towards the camera",
+        "extracted_answer": "B: left and away from the camera",
+        "correct": false
+    },
+    {
+        "id": "validation_138",
+        "question": "What direction is the snail moving towards at first?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no snail there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_139",
+        "question": "What direction is the snowplow moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no snowplow there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_140",
+        "question": "What direction is the android in the background moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "away from the camera",
+            "C": "no android there",
+            "D": "towards the camera"
+        },
+        "response": "B",
+        "ground_truth_answer": "away from the camera",
+        "extracted_answer": "B: away from the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_141",
+        "question": "What direction is the dragon moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no dragon there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "no dragon there",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_142",
+        "question": "What direction is the battle robot moving towards?",
+        "choices": {
+            "A": "no battle robot there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_143",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "no robot there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_144",
+        "question": "What direction is the delivery truck moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no delivery truck there",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_145",
+        "question": "What direction is the robotic space probe moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "away from the camera",
+            "C": "towards the camera",
+            "D": "no robotic space probe there"
+        },
+        "response": "C",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "C: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_146",
+        "question": "What direction is the limousine moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no limousine there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_147",
+        "question": "What direction is the hover bike moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no hover bike there",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_148",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no train there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_149",
+        "question": "Which way is the flying transporter rotating?",
+        "choices": {
+            "A": "no flying transporter there",
+            "B": "not rotating",
+            "C": "clockwise",
+            "D": "counter-clockwise"
+        },
+        "response": "D",
+        "ground_truth_answer": "not rotating",
+        "extracted_answer": "D: counter-clockwise",
+        "correct": false
+    },
+    {
+        "id": "validation_150",
+        "question": "What direction is the ghost moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no ghost there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "no ghost there",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_151",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robotic arm there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_152",
+        "question": "What direction is the puffin moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no puffin there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_153",
+        "question": "What direction is the robotic insect moving towards?",
+        "choices": {
+            "A": "no robotic insect there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_154",
+        "question": "What direction is the monorail train moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no monorail train there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_155",
+        "question": "What direction is the astronaut moving towards?",
+        "choices": {
+            "A": "no astronaut there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_156",
+        "question": "What direction is the robotic mining machine moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no robotic mining machine there"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_157",
+        "question": "Which direction did the robotic war vehicle move?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "not moving",
+            "C": "no robotic war vehicle there",
+            "D": "away from the camera"
+        },
+        "response": "A",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "A: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_158",
+        "question": "Which direction is the humanoid robot moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "no humanoid robot there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_159",
+        "question": "What direction is the submarine moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no submarine there",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_160",
+        "question": "What direction is the phantom moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no phantom there",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "no phantom there",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_161",
+        "question": "What direction is the robotic surgical arm moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no robotic surgical arm there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_162",
+        "question": "What direction is the garbage sweeper moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no garbage sweeper there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_163",
+        "question": "Which direction is the caterpillar moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no caterpillar there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_164",
+        "question": "What direction is the tank moving towards?",
+        "choices": {
+            "A": "no tank there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_165",
+        "question": "What direction is the recreational vehicle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no recreational vehicle there"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: right",
+        "correct": true
+    },
+    {
+        "id": "validation_166",
+        "question": "What direction is the robotic surgical arm moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no robotic surgical arm there"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_167",
+        "question": "What direction is the farming vehicle moving towards?",
+        "choices": {
+            "A": "no farming vehicle there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_168",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no train there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_169",
+        "question": "What direction is the wheelchair moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no wheelchair there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_170",
+        "question": "What direction is the alien moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no alien there",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "no alien there",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_171",
+        "question": "What direction is the turtle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no turtle there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_172",
+        "question": "Which direction is the general flow of the particles?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no general flow there",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: no general flow there",
+        "correct": false
+    },
+    {
+        "id": "validation_173",
+        "question": "What direction is the truck moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no truck there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_174",
+        "question": "What direction is the robotic scorpion moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no robotic scorpion there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_175",
+        "question": "What direction is the garbage truck moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no garbage truck there"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_176",
+        "question": "What direction is the drone moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no drone there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_177",
+        "question": "What direction is the limousine moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no limousine there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_178",
+        "question": "What direction is the hovercar moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no hovercar there",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_179",
+        "question": "Which direction is the train moving towards at first?",
+        "choices": {
+            "A": "no train there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_180",
+        "question": "Which direction is the car moving?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no car there"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_181",
+        "question": "Which direction is the lion moving?",
+        "choices": {
+            "A": "left",
+            "B": "no lion there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "no lion there",
+        "extracted_answer": "B: no lion there",
+        "correct": true
+    },
+    {
+        "id": "validation_182",
+        "question": "Which direction is the caterpillar moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "right",
+            "D": "no caterpillar there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_183",
+        "question": "What direction is the police vehicle moving towards?",
+        "choices": {
+            "A": "no police vehicle there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_184",
+        "question": "Which direction is the digger moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no digger there",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_185",
+        "question": "What way is the fish rotating?",
+        "choices": {
+            "A": "clockwise",
+            "B": "counter-clockwise",
+            "C": "not rotating",
+            "D": "no fish there"
+        },
+        "response": "A",
+        "ground_truth_answer": "not rotating",
+        "extracted_answer": "A: clockwise",
+        "correct": false
+    },
+    {
+        "id": "validation_186",
+        "question": "What way is the robotic caterpillar rotating?",
+        "choices": {
+            "A": "not rotating",
+            "B": "no robotic caterpillar there",
+            "C": "counter-clockwise",
+            "D": "clockwise"
+        },
+        "response": "D",
+        "ground_truth_answer": "not rotating",
+        "extracted_answer": "D: clockwise",
+        "correct": false
+    },
+    {
+        "id": "validation_187",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no robot there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_188",
+        "question": "What direction is the wheelchair moving towards?",
+        "choices": {
+            "A": "no wheelchair there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_189",
+        "question": "What direction is the self-driving garbage truck moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no self-driving garbage truck there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_190",
+        "question": "Which direction did the insect turn?",
+        "choices": {
+            "A": "no insect there",
+            "B": "clockwise",
+            "C": "not moving",
+            "D": "anticlockwise"
+        },
+        "response": "B",
+        "ground_truth_answer": "anticlockwise",
+        "extracted_answer": "B: clockwise",
+        "correct": false
+    },
+    {
+        "id": "validation_191",
+        "question": "Which direction is the robot griffin moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robot griffin there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "no robot griffin there",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_192",
+        "question": "Which direction is the snowmobile moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "towards the camera",
+            "C": "away from the camera",
+            "D": "no snowmobile there"
+        },
+        "response": "B",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "B: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_193",
+        "question": "What direction is the vehicle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no vehicle there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_194",
+        "question": "What direction is the scorpion robot moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no scorpion robot there",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_195",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robot there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_196",
+        "question": "What direction is the truck moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no truck there",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_197",
+        "question": "Which direction is the robot digger moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robot digger there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_198",
+        "question": "What direction is the tank moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no tank there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_199",
+        "question": "What direction is the space rover moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no space rover there",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_200",
+        "question": "What direction is the fairy moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no fairy there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "no fairy there",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_201",
+        "question": "What direction is the robotic harvester moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no robotic harvester there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_202",
+        "question": "Which direction is the robot person moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no robot person there"
+        },
+        "response": "C",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_203",
+        "question": "What direction is the harvester moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no harvester there"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_204",
+        "question": "What direction is the harvester moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no harvester there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_205",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no robot there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_206",
+        "question": "What direction is the scorpion robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no scorpion robot there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_207",
+        "question": "What direction is the delivery truck moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no delivery truck there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_208",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no robot there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_209",
+        "question": "What direction is the balloon moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no balloon there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_210",
+        "question": "Which direction did the bike move?",
+        "choices": {
+            "A": "no bike there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_211",
+        "question": "Which direction did the dragon move?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no dragon there",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "no dragon there",
+        "extracted_answer": "C: no dragon there",
+        "correct": true
+    },
+    {
+        "id": "validation_212",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "towards the camera",
+            "C": "away from the camera",
+            "D": "no firefighter there"
+        },
+        "response": "B",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "B: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_213",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "no robot there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_214",
+        "question": "Which direction is the car moving?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no car there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_215",
+        "question": "What direction is the robotic snow owl moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robotic snow owl there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_216",
+        "question": "What direction is the wheelchair moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no wheelchair there",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_217",
+        "question": "What direction is the robotic museum guide moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no robotic museum guide there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_218",
+        "question": "Which direction is the flying ship moving?",
+        "choices": {
+            "A": "no flying ship there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_219",
+        "question": "What direction is the police vehicle moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no police vehicle there",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_220",
+        "question": "What direction is the phantom moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no phantom there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "no phantom there",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_221",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no robotic arm there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_222",
+        "question": "Which direction is the cobot's body moving?",
+        "choices": {
+            "A": "no cobot's body there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_223",
+        "question": "Which direction is the bat flying?",
+        "choices": {
+            "A": "not moving",
+            "B": "away from the camera",
+            "C": "no bat there",
+            "D": "towards the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_224",
+        "question": "What direction is the car moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no car there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_225",
+        "question": "What direction is the whale moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no whale there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_226",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no robot there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_227",
+        "question": "What direction is the humanoid robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no humanoid robot there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_228",
+        "question": "What direction is the hovercar moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no hovercar there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_229",
+        "question": "What direction is the horse moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no horse there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_230",
+        "question": "Which direction is the robotic arm moving?",
+        "choices": {
+            "A": "no robotic arm there",
+            "B": "towards the camera",
+            "C": "away from the camera",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "B: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_231",
+        "question": "Which direction is the shark moving?",
+        "choices": {
+            "A": "left",
+            "B": "no shark there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "no shark there",
+        "extracted_answer": "B: no shark there",
+        "correct": true
+    },
+    {
+        "id": "validation_232",
+        "question": "Which direction did the drone move?",
+        "choices": {
+            "A": "no drone there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_233",
+        "question": "What direction is the truck moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no truck there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_234",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robotic arm there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_235",
+        "question": "Which direction is the limo moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "no limo there",
+            "C": "away from the camera and to the left",
+            "D": "toward from the camera and to the right"
+        },
+        "response": "A",
+        "ground_truth_answer": "away from the camera and to the left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_236",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robotic arm there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_237",
+        "question": "What direction is the robot chef moving towards?",
+        "choices": {
+            "A": "no robot chef there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_238",
+        "question": "Which direction did the insect turn?",
+        "choices": {
+            "A": "counter-clockwise",
+            "B": "no insect there",
+            "C": "not moving",
+            "D": "clockwise"
+        },
+        "response": "A",
+        "ground_truth_answer": "counter-clockwise",
+        "extracted_answer": "A: counter-clockwise",
+        "correct": true
+    },
+    {
+        "id": "validation_239",
+        "question": "What direction is the robotic otter moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robotic otter there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_240",
+        "question": "Which direction is the ambulance moving?",
+        "choices": {
+            "A": "away from the camera",
+            "B": "towards the camera",
+            "C": "not moving",
+            "D": "no ambulance there"
+        },
+        "response": "B",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "B: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_241",
+        "question": "Which direction did the dog move?",
+        "choices": {
+            "A": "no dog there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "no dog there",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_242",
+        "question": "What direction is the rover moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no rover there"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_243",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no robotic arm there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_244",
+        "question": "Which direction is the flying ship moving?",
+        "choices": {
+            "A": "no flying ship there",
+            "B": "away from the camera",
+            "C": "towards the camera",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "C: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_245",
+        "question": "What direction is the garbage truck moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no garbage truck there",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_246",
+        "question": "What direction is the tank moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no tank there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_247",
+        "question": "What direction is the robot referee moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no robot referee there"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_248",
+        "question": "What direction is the cheetah moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no cheetah there"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_249",
+        "question": "What direction is the ambulance moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no ambulance there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_250",
+        "question": "What direction is the dragon moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no dragon there",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "no dragon there",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_251",
+        "question": "What direction is the scorpion moving towards?",
+        "choices": {
+            "A": "no scorpion there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_252",
+        "question": "Which direction is the racing car moving?",
+        "choices": {
+            "A": "forwards then backwards",
+            "B": "not moving",
+            "C": "no racing car there",
+            "D": "backwards then forwards"
+        },
+        "response": "C",
+        "ground_truth_answer": "forwards then backwards",
+        "extracted_answer": "C: no racing car there",
+        "correct": false
+    },
+    {
+        "id": "validation_253",
+        "question": "What direction is the police vehicle moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no police vehicle there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: no police vehicle there",
+        "correct": false
+    },
+    {
+        "id": "validation_254",
+        "question": "What direction is the bicycle moving towards?",
+        "choices": {
+            "A": "no bicycle there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_255",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no robot there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_256",
+        "question": "Which direction is the car moving?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "away from the camera",
+            "C": "no car there",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_257",
+        "question": "Which direction is the tractor moving?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no tractor there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_258",
+        "question": "Which direction did the robotic arm move?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robotic arm there",
+            "C": "away from the camera",
+            "D": "towards the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_259",
+        "question": "What direction is the robotic bird moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no robotic bird there",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_260",
+        "question": "What direction is the drone moving towards?",
+        "choices": {
+            "A": "no drone there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_261",
+        "question": "What direction is the griffin moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no griffin there",
+            "D": "right"
+        },
+        "response": "B: not moving",
+        "ground_truth_answer": "no griffin there",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_262",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no robot there",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_263",
+        "question": "What direction is the pod moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no pod there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_264",
+        "question": "Which direction is the e-bike moving?",
+        "choices": {
+            "A": "left and towards the camera",
+            "B": "not moving",
+            "C": "no e-bike there",
+            "D": "right and towards the camera"
+        },
+        "response": "A",
+        "ground_truth_answer": "left and towards the camera",
+        "extracted_answer": "A: left and towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_265",
+        "question": "What direction is the robotic jellyfish moving towards?",
+        "choices": {
+            "A": "no robotic jellyfish there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: right",
+        "correct": true
+    },
+    {
+        "id": "validation_266",
+        "question": "What direction is the racing car moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no racing car there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_267",
+        "question": "Which direction is the robot horse moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robot horse there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_268",
+        "question": "What direction is the vehicle moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no vehicle there",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_269",
+        "question": "Which direction is the drone flying?",
+        "choices": {
+            "A": "not moving",
+            "B": "away from the camera",
+            "C": "no drone there",
+            "D": "toward from the camera and to the right"
+        },
+        "response": "B",
+        "ground_truth_answer": "away from the camera",
+        "extracted_answer": "B: away from the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_270",
+        "question": "What direction is the scorpion robot moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no scorpion robot there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_271",
+        "question": "What direction is the troll moving towards?",
+        "choices": {
+            "A": "no troll there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "no troll there",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_272",
+        "question": "What direction is the robot referee moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robot referee there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_273",
+        "question": "What direction is the robotic wheelchair moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no robotic wheelchair there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_274",
+        "question": "What direction is the robotic fish moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no robotic fish there"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: right",
+        "correct": true
+    },
+    {
+        "id": "validation_275",
+        "question": "What direction is the submarine moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no submarine there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_276",
+        "question": "What direction is the walker moving towards?",
+        "choices": {
+            "A": "no walker there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_277",
+        "question": "What direction is the robotic fish moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no robotic fish there"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: right",
+        "correct": true
+    },
+    {
+        "id": "validation_278",
+        "question": "What direction is the ambulance moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no ambulance there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_279",
+        "question": "What direction is the robotic grasshopper moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no robotic grasshopper there",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_280",
+        "question": "What direction is the griffin moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no griffin there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "no griffin there",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_281",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no robotic arm there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_282",
+        "question": "Which direction is the train moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "away from the camera",
+            "C": "no train there",
+            "D": "towards the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_283",
+        "question": "What direction is the monorail train moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no monorail train there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_284",
+        "question": "What direction is the robot chef moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no robot chef there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_285",
+        "question": "Which direction did the flying ball move?",
+        "choices": {
+            "A": "no flying ball there",
+            "B": "not moving",
+            "C": "away from the camera",
+            "D": "towards the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_286",
+        "question": "What direction is the vacuum cleaner moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no vacuum cleaner there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_287",
+        "question": "What direction is the garbage truck moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no garbage truck there",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_288",
+        "question": "Which direction is the agricultural robot moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "no agricultural robot there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_289",
+        "question": "Which direction is the drone moving?",
+        "choices": {
+            "A": "no drone there",
+            "B": "not moving",
+            "C": "down",
+            "D": "up"
+        },
+        "response": "B",
+        "ground_truth_answer": "up",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_290",
+        "question": "What direction is the delivery robot moving towards?",
+        "choices": {
+            "A": "no delivery robot there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_291",
+        "question": "What direction is the dragon moving towards?",
+        "choices": {
+            "A": "no dragon there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "no dragon there",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_292",
+        "question": "What direction is the robotic gazelle moving towards?",
+        "choices": {
+            "A": "no robotic gazelle there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_293",
+        "question": "What direction is the robotic arm moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no robotic arm there",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_294",
+        "question": "What direction is the harvester moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no harvester there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_295",
+        "question": "What direction is the butterfly moving towards?",
+        "choices": {
+            "A": "no butterfly there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_296",
+        "question": "What direction is the rover moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "right",
+            "D": "no rover there"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_297",
+        "question": "Which direction did the insect move?",
+        "choices": {
+            "A": "not moving",
+            "B": "no insect there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_298",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no robot there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_299",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "no robot there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_300",
+        "question": "Which direction is the robot moving?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "not moving",
+            "C": "away from the camera",
+            "D": "no robot there"
+        },
+        "response": "A",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "A: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_301",
+        "question": "Which direction is the snake moving?",
+        "choices": {
+            "A": "right",
+            "B": "no snake there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "no snake there",
+        "extracted_answer": "B: no snake there",
+        "correct": true
+    },
+    {
+        "id": "validation_302",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robot there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_303",
+        "question": "What direction is the robotic snake moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no robotic snake there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_304",
+        "question": "Which direction is the robotic body moving?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no robotic body there"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: no robotic body there",
+        "correct": false
+    },
+    {
+        "id": "validation_305",
+        "question": "What direction is the robotic insect moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no robotic insect there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_306",
+        "question": "What direction is the robotic cobra moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no robotic cobra there",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_307",
+        "question": "Which direction is the snake's head moving?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no snake's head there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_308",
+        "question": "Which direction is the orb moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no orb there",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_309",
+        "question": "What direction is the bus moving towards?",
+        "choices": {
+            "A": "no bus there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_310",
+        "question": "Which direction did the police car move?",
+        "choices": {
+            "A": "no police car there",
+            "B": "towards the camera",
+            "C": "not moving",
+            "D": "away from the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: away from the camera",
+        "correct": false
+    },
+    {
+        "id": "validation_311",
+        "question": "Which direction did the dog move?",
+        "choices": {
+            "A": "left",
+            "B": "no dog there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "no dog there",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_312",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no robot there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_313",
+        "question": "What direction is the android moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no android there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_314",
+        "question": "What direction is the robotic guard dog moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robotic guard dog there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_315",
+        "question": "What direction is the probe moving towards?",
+        "choices": {
+            "A": "no probe there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_316",
+        "question": "Which direction is the vacuum cleaner moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "no vacuum cleaner there",
+            "C": "right and away from the camera",
+            "D": "left and towards the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "left and towards the camera",
+        "extracted_answer": "D: left and towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_317",
+        "question": "What direction is the rover moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no rover there"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_318",
+        "question": "What direction is the racing car moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no racing car there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_319",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no robot there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_320",
+        "question": "What direction is the AI moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no AI there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_321",
+        "question": "What direction is the dragon moving towards?",
+        "choices": {
+            "A": "no dragon there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "no dragon there",
+        "extracted_answer": "A: no dragon there",
+        "correct": true
+    },
+    {
+        "id": "validation_322",
+        "question": "What direction is the robotic guard dog moving towards?",
+        "choices": {
+            "A": "no robotic guard dog there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_323",
+        "question": "Which direction is the train moving?",
+        "choices": {
+            "A": "right",
+            "B": "no train there",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_324",
+        "question": "Which direction is the humanoid moving?",
+        "choices": {
+            "A": "away from the camera",
+            "B": "no humanoid there",
+            "C": "not moving",
+            "D": "towards the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_325",
+        "question": "What direction is the Mars rover moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no Mars rover there",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_326",
+        "question": "What direction is the ambulance moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no ambulance there"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_327",
+        "question": "What direction is the sea creature moving towards?",
+        "choices": {
+            "A": "no squid there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_328",
+        "question": "Which direction is the humanoid walking?",
+        "choices": {
+            "A": "no humanoid there",
+            "B": "towards the camera",
+            "C": "not moving",
+            "D": "away from the camera"
+        },
+        "response": "B",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "B: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_329",
+        "question": "Which direction is the robot vaccum moving?",
+        "choices": {
+            "A": "no robot vacuum there",
+            "B": "away from the camera",
+            "C": "towards the camera",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "B: away from the camera",
+        "correct": false
+    },
+    {
+        "id": "validation_330",
+        "question": "What direction is the cheetah moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "right",
+            "D": "no cheetah there"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_331",
+        "question": "Which direction is the robot bird flying?",
+        "choices": {
+            "A": "away from the camera",
+            "B": "no robot bird there",
+            "C": "not moving",
+            "D": "towards the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_332",
+        "question": "Which direction is the frog moving?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no frog there",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "no frog there",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_333",
+        "question": "What direction is the rover moving towards?",
+        "choices": {
+            "A": "no rover there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_334",
+        "question": "What direction is the turtle moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no turtle there",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_335",
+        "question": "What direction is the robotic jellyfish moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no robotic jellyfish there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_336",
+        "question": "What direction is the monowheel moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no monowheel there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_337",
+        "question": "What direction is the mail truck moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no mail truck there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_338",
+        "question": "Which direction is the flying car moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no flying car there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_339",
+        "question": "Which direction is the robot tank moving?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "not moving",
+            "C": "no robot tank there",
+            "D": "away from the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: away from the camera",
+        "correct": false
+    },
+    {
+        "id": "validation_340",
+        "question": "What direction is the bicycle moving towards?",
+        "choices": {
+            "A": "no bicycle there",
+            "B": "right",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_341",
+        "question": "What direction is the jellyfish moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no jellyfish there"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_342",
+        "question": "What direction is the unicorn moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no unicorn there",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "no unicorn there",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_343",
+        "question": "What direction is the snowplow moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no snowplow there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_344",
+        "question": "What direction is the ambulance moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no ambulance there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_345",
+        "question": "What direction is the rover moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no rover there",
+            "D": "not moving"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_346",
+        "question": "What direction is the construction vehicle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no construction vehicle there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_347",
+        "question": "What direction is the robotic moose moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "right",
+            "D": "no robotic moose there"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_348",
+        "question": "Which direction is the cobot moving?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no cobot there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_349",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no train there"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_350",
+        "question": "Which direction is the truck moving?",
+        "choices": {
+            "A": "no truck there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_351",
+        "question": "Which direction is the robotic dog moving?",
+        "choices": {
+            "A": "away from the camera",
+            "B": "towards the camera",
+            "C": "not moving",
+            "D": "no robotic dog there"
+        },
+        "response": "B",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "B: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_352",
+        "question": "Which direction is the cap moving?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no cap there",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "no cap there",
+        "extracted_answer": "C: no cap there",
+        "correct": true
+    },
+    {
+        "id": "validation_353",
+        "question": "What direction is the vehicle moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no vehicle there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_354",
+        "question": "What direction is the construction vehicle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no construction vehicle there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_355",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no train there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_356",
+        "question": "Which direction is the train moving?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no train there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_357",
+        "question": "What direction is the robotic dinosaur moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robotic dinosaur there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_358",
+        "question": "What direction is the limousine moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no limousine there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_359",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "no train there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_360",
+        "question": "What direction is the robotic bison moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no robotic bison there",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_361",
+        "question": "What direction is the unicorn moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no unicorn there"
+        },
+        "response": "A",
+        "ground_truth_answer": "no unicorn there",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_362",
+        "question": "What direction is the vending cart moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no vending cart there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_363",
+        "question": "What direction is the sports car moving towards?",
+        "choices": {
+            "A": "no sports car there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_364",
+        "question": "What direction is the rover moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no rover there"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: right",
+        "correct": true
+    },
+    {
+        "id": "validation_365",
+        "question": "Which direction is the food delivery robot moving?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "away from the camera",
+            "C": "no food delivery robot there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "A: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_366",
+        "question": "What direction is the harvester moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no harvester there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_367",
+        "question": "What direction is the sports car moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no sports car there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_368",
+        "question": "What direction is the robotic jellyfish moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no robotic jellyfish there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_369",
+        "question": "Which direction is the water falling?",
+        "choices": {
+            "A": "no water there",
+            "B": "not moving",
+            "C": "down",
+            "D": "up"
+        },
+        "response": "C",
+        "ground_truth_answer": "down",
+        "extracted_answer": "C: down",
+        "correct": true
+    },
+    {
+        "id": "validation_370",
+        "question": "What direction is the wheelchair moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "towards the camera",
+            "C": "away from the camera",
+            "D": "no wheelchair there"
+        },
+        "response": "B",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "B: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_371",
+        "question": "What direction is the alien moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no alien there"
+        },
+        "response": "A",
+        "ground_truth_answer": "no alien there",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_372",
+        "question": "What direction is the flying taxi moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no flying taxi there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_373",
+        "question": "Which direction did the robot arm move?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no robot arm there",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_374",
+        "question": "What direction is the robotic window cleaner moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no robotic window cleaner there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_375",
+        "question": "What direction is the bus moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no bus there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_376",
+        "question": "Which direction is the train moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "no train there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_377",
+        "question": "What direction is the ambulance moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no ambulance there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_378",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no robot there"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: no robot there",
+        "correct": false
+    },
+    {
+        "id": "validation_379",
+        "question": "What direction is the car moving towards?",
+        "choices": {
+            "A": "no car there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_380",
+        "question": "What direction is the dinosaur moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no dinosaur there",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_381",
+        "question": "What direction is the alien moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no alien there"
+        },
+        "response": "A",
+        "ground_truth_answer": "no alien there",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_382",
+        "question": "What direction is the police vehicle moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "no police vehicle there",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: no police vehicle there",
+        "correct": false
+    },
+    {
+        "id": "validation_383",
+        "question": "What direction is the vehicle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no vehicle there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_384",
+        "question": "Which direction is the shark moving?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no shark there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: left",
+        "correct": false
+    },
+    {
+        "id": "validation_385",
+        "question": "What direction is the dinosaur moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no dinosaur there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_386",
+        "question": "What direction is the vehicle moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no vehicle there",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_387",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "no robot there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_388",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "no robot there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_389",
+        "question": "What direction is the robotic kangaroo moving towards?",
+        "choices": {
+            "A": "no robotic kangaroo there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_390",
+        "question": "Which direction is the robot moving?",
+        "choices": {
+            "A": "no robot there",
+            "B": "not moving",
+            "C": "towards the camera",
+            "D": "away from the camera"
+        },
+        "response": "C",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "C: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_391",
+        "question": "What direction is the dinosaur-like creature moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no dinosaur-like creature there"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_392",
+        "question": "What direction is the fairy moving towards?",
+        "choices": {
+            "A": "no fairy there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "no fairy there",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_393",
+        "question": "What direction is the robotic king crab moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robotic king crab there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_394",
+        "question": "Which direction did the robot cleaner move?",
+        "choices": {
+            "A": "away from the camera",
+            "B": "not moving",
+            "C": "no robot cleaner there",
+            "D": "towards the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_395",
+        "question": "Which direction did the robotic worker move?",
+        "choices": {
+            "A": "not moving",
+            "B": "away from the camera",
+            "C": "toward the camera",
+            "D": "no robotic worker there"
+        },
+        "response": "C",
+        "ground_truth_answer": "away from the camera",
+        "extracted_answer": "C: toward the camera",
+        "correct": false
+    },
+    {
+        "id": "validation_396",
+        "question": "What direction is the snowplow moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no snowplow there",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: left",
+        "correct": true
+    },
+    {
+        "id": "validation_397",
+        "question": "What direction is the farming vehicle moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no farming vehicle there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_398",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no train there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_399",
+        "question": "Which direction is the car moving?",
+        "choices": {
+            "A": "away from the camera",
+            "B": "toward the camera",
+            "C": "not moving",
+            "D": "no car there"
+        },
+        "response": "A",
+        "ground_truth_answer": "away from the camera",
+        "extracted_answer": "A: away from the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_400",
+        "question": "What direction is the garbage collection vehicle moving towards?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "no garbage collection vehicle there",
+            "C": "not moving",
+            "D": "away from the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "D: away from the camera",
+        "correct": false
+    },
+    {
+        "id": "validation_401",
+        "question": "What direction is the alien moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no alien there"
+        },
+        "response": "A",
+        "ground_truth_answer": "no alien there",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_402",
+        "question": "What direction is the construction vehicle moving towards?",
+        "choices": {
+            "A": "no construction vehicle there",
+            "B": "not moving",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_403",
+        "question": "Which direction is the drone flying?",
+        "choices": {
+            "A": "up",
+            "B": "down",
+            "C": "no drone there",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "up",
+        "extracted_answer": "C: no drone there",
+        "correct": false
+    },
+    {
+        "id": "validation_404",
+        "question": "What direction is the turtle moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "no turtle there",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_405",
+        "question": "Which direction is the car moving?",
+        "choices": {
+            "A": "no car there",
+            "B": "toward the camera",
+            "C": "not moving",
+            "D": "away from the camera"
+        },
+        "response": "D",
+        "ground_truth_answer": "away from the camera",
+        "extracted_answer": "D: away from the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_406",
+        "question": "What direction is the android moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no android there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: left",
+        "correct": true
+    },
+    {
+        "id": "validation_407",
+        "question": "What direction is the bus moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "no bus there",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_408",
+        "question": "Which direction is the tractor moving?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no tractor there",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "left",
+        "extracted_answer": "D: right",
+        "correct": false
+    },
+    {
+        "id": "validation_409",
+        "question": "What direction is the bicycle moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no bicycle there",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_410",
+        "question": "What direction is the snowplow moving towards?",
+        "choices": {
+            "A": "no snowplow there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_411",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "towards the camera",
+            "B": "away from the camera",
+            "C": "not moving",
+            "D": "no train there"
+        },
+        "response": "A",
+        "ground_truth_answer": "towards the camera",
+        "extracted_answer": "A: towards the camera",
+        "correct": true
+    },
+    {
+        "id": "validation_412",
+        "question": "What direction is the troll moving towards?",
+        "choices": {
+            "A": "no troll there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "C",
+        "ground_truth_answer": "no troll there",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_413",
+        "question": "What direction is the platypus moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no platypus there"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: right",
+        "correct": true
+    },
+    {
+        "id": "validation_414",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no robot there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_415",
+        "question": "What direction is the robotic archaeologist moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no robotic archaeologist there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_416",
+        "question": "Which direction did the robot shrimp move?",
+        "choices": {
+            "A": "no robot shrimp there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: right",
+        "correct": false
+    },
+    {
+        "id": "validation_417",
+        "question": "What direction is the rover moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no rover there"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_418",
+        "question": "What direction is the robotic insect moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no robotic insect there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_419",
+        "question": "What direction is the tank moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no tank there",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_420",
+        "question": "What direction is the robotic snake moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no robotic snake there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_421",
+        "question": "What direction is the griffin moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "left",
+            "D": "no griffin there"
+        },
+        "response": "C",
+        "ground_truth_answer": "no griffin there",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_422",
+        "question": "What direction is the rover moving towards?",
+        "choices": {
+            "A": "no rover there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_423",
+        "question": "What direction is the robotic cheetah moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no robotic cheetah there",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_424",
+        "question": "What direction is the rover moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no rover there",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: no rover there",
+        "correct": false
+    },
+    {
+        "id": "validation_425",
+        "question": "What direction is the blimp moving towards?",
+        "choices": {
+            "A": "no blimps there",
+            "B": "left",
+            "C": "away from the camera",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    },
+    {
+        "id": "validation_426",
+        "question": "What direction is the dinosaur moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "no dinosaur there",
+            "D": "not moving"
+        },
+        "response": "A",
+        "ground_truth_answer": "left",
+        "extracted_answer": "A: left",
+        "correct": true
+    },
+    {
+        "id": "validation_427",
+        "question": "What direction is the battle robot moving towards?",
+        "choices": {
+            "A": "no battle robot there",
+            "B": "left",
+            "C": "not moving",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "B: left",
+        "correct": false
+    },
+    {
+        "id": "validation_428",
+        "question": "What direction is the rover moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "not moving",
+            "C": "no rover there",
+            "D": "left"
+        },
+        "response": "B",
+        "ground_truth_answer": "right",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_429",
+        "question": "What direction is the Mars rover moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "right",
+            "C": "left",
+            "D": "no Mars rover there"
+        },
+        "response": "A",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "A: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_430",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no train there",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_431",
+        "question": "Which direction is the submarine moving?",
+        "choices": {
+            "A": "no submarine there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_432",
+        "question": "Which direction is the ship moving?",
+        "choices": {
+            "A": "right",
+            "B": "no ship there",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "A",
+        "ground_truth_answer": "no ship there",
+        "extracted_answer": "A: right",
+        "correct": false
+    },
+    {
+        "id": "validation_433",
+        "question": "What direction is the drone moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no drone there"
+        },
+        "response": "C",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "C: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_434",
+        "question": "What direction is the battle robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no battle robot there"
+        },
+        "response": "C",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "C: not moving",
+        "correct": true
+    },
+    {
+        "id": "validation_435",
+        "question": "What direction is the jellyfish moving towards?",
+        "choices": {
+            "A": "no jellyfish there",
+            "B": "right",
+            "C": "left",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "right",
+        "extracted_answer": "C: left",
+        "correct": false
+    },
+    {
+        "id": "validation_436",
+        "question": "What direction is the train moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "left",
+            "C": "not moving",
+            "D": "no train there"
+        },
+        "response": "A",
+        "ground_truth_answer": "right",
+        "extracted_answer": "A: right",
+        "correct": true
+    },
+    {
+        "id": "validation_437",
+        "question": "What direction is the ride moving towards?",
+        "choices": {
+            "A": "no ride there",
+            "B": "left",
+            "C": "right",
+            "D": "not moving"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_438",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "right",
+            "C": "not moving",
+            "D": "no robot there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_439",
+        "question": "What direction is the submarine moving towards?",
+        "choices": {
+            "A": "no submarine there",
+            "B": "not moving",
+            "C": "right",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_440",
+        "question": "What direction is the sleek, metallic scorpion-like creature moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "left",
+            "C": "no sleek, metallic scorpion-like creature there",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: left",
+        "correct": true
+    },
+    {
+        "id": "validation_441",
+        "question": "What direction is the ambulance moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no ambulance there"
+        },
+        "response": "C",
+        "ground_truth_answer": "left",
+        "extracted_answer": "C: right",
+        "correct": false
+    },
+    {
+        "id": "validation_442",
+        "question": "What direction is the dragon moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "no dragon there",
+            "D": "right"
+        },
+        "response": "B",
+        "ground_truth_answer": "no dragon there",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_443",
+        "question": "What direction is the wheelchair moving towards?",
+        "choices": {
+            "A": "left",
+            "B": "not moving",
+            "C": "right",
+            "D": "no wheelchair there"
+        },
+        "response": "B",
+        "ground_truth_answer": "left",
+        "extracted_answer": "B: not moving",
+        "correct": false
+    },
+    {
+        "id": "validation_444",
+        "question": "What direction is the robot moving towards?",
+        "choices": {
+            "A": "right",
+            "B": "no robot there",
+            "C": "not moving",
+            "D": "left"
+        },
+        "response": "D",
+        "ground_truth_answer": "not moving",
+        "extracted_answer": "D: left",
+        "correct": false
+    },
+    {
+        "id": "validation_445",
+        "question": "What direction is the robotic fish moving towards?",
+        "choices": {
+            "A": "not moving",
+            "B": "no robotic fish there",
+            "C": "left",
+            "D": "right"
+        },
+        "response": "D",
+        "ground_truth_answer": "right",
+        "extracted_answer": "D: right",
+        "correct": true
+    }
+]
