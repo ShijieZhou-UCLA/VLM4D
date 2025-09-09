@@ -86,14 +86,19 @@ python acc_evaluation.py --output_dir outputs/real_mc_cot
 
 The evaluation results are saved in the `outputs/processed_outputs/` directory. 
 
-As illustrated in our paper, the LLM-as-judge may occasionally make mistakes. To address this, we also provide manually verified evaluation results, obtained by cross-checking the outputs of two LLM judges (OpenAI o3 and o4-mini), which can be found in `processed_outputs/o4mini_verified/`.
+As illustrated in our paper, the LLM-as-judge may occasionally make mistakes. To address this, we also provide manually verified evaluation results, obtained by cross-checking the outputs of two LLM judges (OpenAI o3 and o4-mini), which can be found in `processed_outputs_paper_results`.
 
 
 Finally, run the following command to generate the statistics of the evaluation results:
 ```bash
 python acc_final_statistics.py
 ```
-Where you are free to set the output folders inside.
+Where you are free to set your input and output folders inside. You can also reproduce the numbers shown in our paper Table 1 by changing the paths to the following:
+```
+real_data_folder = "processed_outputs_paper_results/real_mc_cot"
+synthetic_data_folder = "processed_outputs_paper_results/synthetic_mc_cot"
+output_csv = "csv_final_results/final_accuracy_table_cot.csv"
+```
 
 
 

@@ -76,12 +76,27 @@ def compute_accuracy(real_folder, synthetic_folder, output_csv_path):
     print(f"Saved results to: {output_csv_path}")
 
 # === Example usage ===
-# real_data_folder = "processed_outputs/o4mini_verified/real_mc_cot"
-# synthetic_data_folder = "processed_outputs/o4mini_verified/synthetic_mc_cot"
+os.makedirs("csv_final_results", exist_ok=True)
+
+# To test with your own folders, set your paths below:
+real_data_folder = "processed_outputs/real_mc_cot" 
+synthetic_data_folder = "processed_outputs/synthetic_mc_cot"
+output_csv = "csv_final_results/final_accuracy_table_cot.csv"
+
+
+############### To reproduce numbers in the paper, use the following folders ###############
+# You can uncomment one of the two sections below.
+
+# Uncomment this part for CoT results (Table 1 in the paper)
+# real_data_folder = "processed_outputs_paper_results/real_mc_cot"
+# synthetic_data_folder = "processed_outputs_paper_results/synthetic_mc_cot"
 # output_csv = "csv_final_results/final_accuracy_table_cot.csv"
 
-real_data_folder = "processed_outputs/o4mini_verified/real_mc_direct-output"
-synthetic_data_folder = "processed_outputs/o4mini_verified/synthetic_mc_direct-output"
-output_csv = "csv_final_results/final_accuracy_table_do.csv"
+# Or uncomment this part for Direct output results (Figure 6 in the paper)
+# real_data_folder = "processed_outputs_paper_results/real_mc_direct-output"
+# synthetic_data_folder = "processed_outputs_paper_results/synthetic_mc_direct-output"
+# output_csv = "csv_final_results/final_accuracy_table_do.csv"
+
+############################################################################################
 
 compute_accuracy(real_data_folder, synthetic_data_folder, output_csv)
