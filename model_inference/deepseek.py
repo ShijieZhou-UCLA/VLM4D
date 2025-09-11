@@ -5,7 +5,7 @@ from DeepSeek_VL2.deepseek_vl2.models import DeepseekVLV2Processor, DeepseekVLV2
 from DeepSeek_VL2.deepseek_vl2.utils.io import load_pil_images
 
 from utils.constant import GENERATION_TEMPERATURE, MAX_TOKENS, COT_PROMPT
-from utils.video_process import read_video, download_video, prepare_base64frames, prepare_gemini_video_input, prepare_base64_video
+from utils.video_process import read_video, download_video
 import os
 from utils.prepare_input import prepare_qa_text_input, prepare_multi_image_input, resize_deepseek
 import json
