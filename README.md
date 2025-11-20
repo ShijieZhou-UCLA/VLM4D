@@ -111,9 +111,10 @@ All videos of the VLM4D benchmark are obtained from the public research video da
 ## Citation
 ```
 @inproceedings{zhou2025vlm4d,
-    title={VLM4D: Towards Spatiotemporal Awareness in Vision Language Models},
-    author={Zhou, Shijie and Vilesov, Alexander and He, Xuehai and Wan, Ziyu and Zhang, Shuwang and Nagachandra, Aditya and Chang, Di and Chen, Dongdong and Wang, Eric Xin and Kadambi, Achuta},
-    booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
-    year={2025}
+  title={Vlm4d: Towards spatiotemporal awareness in vision language models},
+  author={Zhou, Shijie and Vilesov, Alexander and He, Xuehai and Wan, Ziyu and Zhang, Shuwang and Nagachandra, Aditya and Chang, Di and Chen, Dongdong and Wang, Xin Eric and Kadambi, Achuta},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  pages={8600--8612},
+  year={2025}
 }
 ```
